@@ -19,7 +19,7 @@ echo """
 ╭╮╱╱╭━━━┳━━━┳━━━┳━╮╱╭┳━━━╮
 ┃┃╱╱┃╭━━┫╭━╮┃╭━━┫┃╰╮┃┣╮╭╮┃
 ┃┃╱╱┃╰━━┫┃╱╰┫╰━━┫╭╮╰╯┃┃┃┃┃
-┃┃╱╭┫╭━━┫┃╭━┫╭━━┫┃╰╮┃┃┃┃┃┃
+┃┃╱╭┫╭━┫┃╭━┫╭━━┫┃╰╮┃┃┃┃┃┃
 ┃╰━╯┃╰━━┫╰┻━┃╰━━┫┃╱┃┃┣╯╰╯┃
 ╰━━━┻━━━┻━━━┻━━━┻╯╱╰━┻━━━╯
 ╭━━╮╭━━━┳━━━━╮
@@ -29,7 +29,7 @@ echo """
 ┃╰━╯┃╰━╯┃╱┃┃
 ╰━━━┻━━━╯╱╰╯
 """
-rm -rf LEGENDUSERBOT
-git clone https://github.com/The-LegendBot/LEGENDUSERBOT
-cd LEGENDUSERBOT
+rm -rf DRAGONUSERBOT
+git clone https://github.com/weeed0y/DRAGONBOT
+cd DRAGONBOT 
 python3 -m userbot
