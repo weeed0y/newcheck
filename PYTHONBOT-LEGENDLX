@@ -6,10 +6,11 @@ _get_repolink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $DRAGON_REPO == "DRAGONBOT" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL0xFR0VORC1MWC9QWVRIT05VU0VSQk9UL2FyY2hpdmUvbWFpbi56aXA" | base64 -d
+        echo "ZmFlMjAyNWRjYmU5YWNiM2M2NDRjZTA4ZjY4YzFkZDIwY2M3MzNkNSAgaGFzaGRpcy50eHQ=" | base64 -d
     elif [[ $DRAGON_REPO == "DRAGONBOT" ]]
-    then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL0xFR0VORC1MWC9QWVRIT05VU0VSQk9UL2FyY2hpdmUvbWFpbi56aXA" | base64 -d
+    then  
+       echo  "ZmFlMjAyNWRjYmU5YWNiM2M2NDRjZTA4ZjY4YzFkZDIwY2M3MzNkNSAgaGFzaGRpcy50eHQ="
+        pdmUvbWFpbi56aXA" | base64 -d
     elif [[ $DRAGON_REPO =~ $regex ]]
     then
         if [[ $DRAGON_REPO_BRANCH ]]
@@ -19,7 +20,7 @@ _get_repolink () {
             echo "${DRAGON_REPO}/archive/master.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL0xFR0VORC1MWC9QWVRIT05VU0VSQk9UL2FyY2hpdmUvbWFpbi56aXA" | base64 -d
+        echo "ZmFlMjAyNWRjYmU5YWNiM2M2NDRjZTA4ZjY4YzFkZDIwY2M3MzNkNSAgaGFzaGRpcy50eHQ=" | base64 -d
     fi
 }
 
